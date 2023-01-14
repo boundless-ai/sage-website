@@ -100,7 +100,7 @@ export default function Home() {
                     <br />
                     <br />
                     <Button href="https://forms.gle/QdLcaFMHoN6rdSfX8">
-                        Request Access
+                        Request
                     </Button>
                 </ContentContainer>
             </Screen>
