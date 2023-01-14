@@ -82,7 +82,7 @@ export default function Home() {
                     name="description"
                     content="AI powered document reader."
                 />
-                <meta name="image" content="https://boundless.so/cover.png" />
+                <meta name="image" content="http://sagereader.com/cover.png" />
             </Head>
             <Screen>
                 <ContentContainer>
