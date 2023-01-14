@@ -42,7 +42,6 @@ const Title = styled.div`
 
 const Subtitle = styled.div`
   color: #2DB12D;
-  opacity: 0.8;
   font-size: 4vw;
   font-weight: 500;
   font-family: ${inter.style.fontFamily};
@@ -99,7 +98,10 @@ export default function Home() {
                     <br />
                     <br />
                     <br />
-                    <Button href="https://google.com">Request Access</Button>
+                    <br />
+                    <Button href="https://forms.gle/QdLcaFMHoN6rdSfX8">
+                        Request Access
+                    </Button>
                 </ContentContainer>
             </Screen>
         </>
