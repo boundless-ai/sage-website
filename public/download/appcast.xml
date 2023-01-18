@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Sage</title>
+        <item>
+            <title>0.1.0</title>
+            <pubDate>Wed, 18 Jan 2023 15:53:52 -0800</pubDate>
+            <sparkle:version>1</sparkle:version>
+            <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://www.sagereader.com/download/Sage-0.1.0.tar.xz" length="54626744" type="application/octet-stream" sparkle:edSignature="GesxFJ816ioa7Sjh/mbtSHH5th4xlFfUzk5GtJ3Q1I7cdLDPPi8o/zauM/D7R6oIhngx/YUP1N8bhYXz3MyVAg=="/>
+        </item>
+    </channel>
+</rss>
