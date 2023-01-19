@@ -4,7 +4,7 @@ import { Inter } from "@next/font/google";
 
 const inter = Inter({ subsets: ["latin"] });
 
-const Screen = styled.div`
+export const Screen = styled.div`
     background: #f5f9f5;
     background-size: stretch;
     min-height: 100vh;
@@ -14,7 +14,7 @@ const Screen = styled.div`
     align-items: center;
 `;
 
-const ContentContainer = styled.div`
+export const ContentContainer = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -28,7 +28,7 @@ const ContentContainer = styled.div`
     }
 `;
 
-const Title = styled.div`
+export const Title = styled.div`
   color: #2DB12D;
   font-size: 8vw;
   font-weight: 600;
@@ -40,7 +40,7 @@ const Title = styled.div`
     flex-wrap: wrap;
 `;
 
-const Subtitle = styled.div`
+export const Subtitle = styled.div`
   color: #2DB12D;
   font-size: 4vw;
   font-weight: 500;
@@ -52,7 +52,7 @@ const Subtitle = styled.div`
     flex-wrap: wrap;
 `;
 
-const Button = styled.a`
+export const Button = styled.a`
   z-index: 1;
   background: linear-gradient(to bottom, #44C644, #098809);
   padding: 12px 60px;
@@ -86,9 +86,6 @@ export default function Home() {
             </Head>
             <Screen>
                 <ContentContainer>
-                    <br />
-                    <br />
-                    <br />
                     <Title>Sage</Title>
                     <br />
                     <br />
