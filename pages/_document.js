@@ -4,7 +4,6 @@ export default function Document() {
     return (
         <Html lang="en">
             <Head>
-                <meta name="title" content="Sage Reader" />
                 <meta
                     name="description"
                     content="AI powered document reader."

@@ -76,6 +76,9 @@ export const Button = styled.a`
 export default function Home() {
     return (
         <>
+            <Head>
+                <title>Sage Reader</title>
+            </Head>
             <Screen>
                 <ContentContainer>
                     <Title>Sage</Title>

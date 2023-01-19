@@ -51,6 +51,9 @@ const Link = styled.a`
 export default function Download() {
     return (
         <>
+            <Head>
+                <title>Sage Reader</title>
+            </Head>
             <Screen>
                 <ContentContainer>
                     <br />
