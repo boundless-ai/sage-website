@@ -1,4 +1,5 @@
 import { Content } from "@next/font/google";
+import Head from "next/head";
 import styled from "styled-components";
 import { Screen, ContentContainer, Title, Subtitle, Button } from "./index.js";
 import { Inter } from "@next/font/google";
