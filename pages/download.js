@@ -50,37 +50,39 @@ const Link = styled.a`
 
 export default function Download() {
     return (
-        <Screen>
-            <ContentContainer>
-                <br />
-                <br />
-                <Title>Sage Reader</Title>
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <DownloadButton href="https://sagereader.com/download/Sage-0.1.0.tar.xz">
-                    <CenterAlign>
-                        Download
-                        <br />
-                        <span
-                            style={{
-                                fontWeight: 300,
-                                fontSize: "max(2.6vw, 22px)",
-                            }}
-                        >
-                            for Apple Silicon Mac
-                        </span>
-                    </CenterAlign>
-                </DownloadButton>
-                <br />
-                <br />
-                <Link href="mailto:sagereaderapp@gmail.com?subject=Intel%20Support%20Request&body=Please%20add%20support%20for%20Intel%20macs!">
-                    or request Intel Mac support
-                </Link>
-            </ContentContainer>
-        </Screen>
+        <>
+            <Screen>
+                <ContentContainer>
+                    <br />
+                    <br />
+                    <Title>Sage Reader</Title>
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <DownloadButton href="https://sagereader.com/download/Sage-0.1.0.tar.xz">
+                        <CenterAlign>
+                            Download
+                            <br />
+                            <span
+                                style={{
+                                    fontWeight: 300,
+                                    fontSize: "max(2.6vw, 22px)",
+                                }}
+                            >
+                                for Apple Silicon Mac
+                            </span>
+                        </CenterAlign>
+                    </DownloadButton>
+                    <br />
+                    <br />
+                    <Link href="mailto:sagereaderapp@gmail.com?subject=Intel%20Support%20Request&body=Please%20add%20support%20for%20Intel%20macs!">
+                        or request Intel Mac support
+                    </Link>
+                </ContentContainer>
+            </Screen>
+        </>
     );
 }

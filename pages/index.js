@@ -76,14 +76,6 @@ export const Button = styled.a`
 export default function Home() {
     return (
         <>
-            <Head>
-                <title>Sage Reader</title>
-                <meta
-                    name="description"
-                    content="AI powered document reader."
-                />
-                <meta name="image" content="https://sagereader.com/cover.png" />
-            </Head>
             <Screen>
                 <ContentContainer>
                     <Title>Sage</Title>
