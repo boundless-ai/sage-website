@@ -10,24 +10,25 @@ const CenterAlign = styled.div`
 `;
 
 const DownloadButton = styled.a`
-  z-index: 1;
-  border: 6px solid #44C644;
-  padding: 20px 60px;
-  border-radius: 18px;
-  color: #44C644;
-  font-size: 3vw;
-  font-weight: 500;
-  font-family: ${inter.style.fontFamily};
-  text-decoration: none;
-  transition: 0.2s ease-out;
-
-  &:hover {
-    transform: scale(1.06);
+    z-index: 1;
+    border: 6px solid #44c644;
+    padding: 20px 60px;
+    border-radius: 18px;
+    color: #44c644;
+    font-size: 3vw;
+    font-weight: 500;
+    font-family: ${inter.style.fontFamily};
+    text-decoration: none;
     transition: 0.2s ease-out;
-  }
-  
-  @media (max-width: 768px) {
-    font-size: 35px;
+
+    &:hover {
+        transform: scale(1.06);
+        transition: 0.2s ease-out;
+    }
+
+    @media (max-width: 768px) {
+        font-size: 28px;
+    }
 `;
 
 const Link = styled.a`
@@ -43,7 +44,7 @@ const Link = styled.a`
     }
 
     @media (max-width: 768px) {
-        font-size: 35px;
+        font-size: 18px;
     }
 `;
 
@@ -64,7 +65,12 @@ export default function Download() {
                     <CenterAlign>
                         Download
                         <br />
-                        <span style={{ fontWeight: 300, fontSize: "2.6vw" }}>
+                        <span
+                            style={{
+                                fontWeight: 300,
+                                fontSize: "max(2.6vw, 22px)",
+                            }}
+                        >
                             for Apple Silicon Mac
                         </span>
                     </CenterAlign>
