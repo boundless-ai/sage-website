@@ -3,6 +3,18 @@
     <channel>
         <title>Sage</title>
         <item>
+            <title>0.1.1</title>
+            <pubDate>Thu, 19 Jan 2023 23:03:00 -0800</pubDate>
+            <link>https://sagereader.com/download</link>
+            <sparkle:version>2</sparkle:version>
+            <sparkle:shortVersionString>0.1.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://www.sagereader.com/download/Sage-0.1.1.tar.xz" length="53715480" type="application/octet-stream" sparkle:edSignature="zvLPqAMJXOyKBThZ6x3tVWD9xfFjcEkoZe2YEa+5kxRI44xmQyPI1eAUqFhkd8Bjd83uQuaqTvGc4CPIdG69Cg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://www.sagereader.com/download/Sage2-1.delta" sparkle:deltaFrom="1" length="196682" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="1379168" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="+ytHgvifcx3TUijmSZrQSf0l5IJrqremGoB8uJ0PuRj6HSHrVHA1h+p/PHI5pHsE5WGPkq3UzpOPu0u2o4hQAg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.1.0</title>
             <pubDate>Wed, 18 Jan 2023 18:33:49 -0800</pubDate>
             <link>https://sagereader.com/download</link>
