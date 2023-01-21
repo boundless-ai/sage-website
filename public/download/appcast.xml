@@ -3,6 +3,19 @@
     <channel>
         <title>Sage</title>
         <item>
+            <title>0.1.2</title>
+            <pubDate>Fri, 20 Jan 2023 20:03:30 -0800</pubDate>
+            <link>https://sagereader.com/download</link>
+            <sparkle:version>3</sparkle:version>
+            <sparkle:shortVersionString>0.1.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://www.sagereader.com/download/Sage-0.1.2.tar.xz" length="54826040" type="application/octet-stream" sparkle:edSignature="98SNFXDn91zy7PVvYixi2ymk8IDHIpkYiYbPTuZqvZU+eis80W4aeHb4/hZxS63cTXZkOqNxUMI9DTaCrCOfBA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://www.sagereader.com/download/Sage3-2.delta" sparkle:deltaFrom="2" length="1718034" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="1379168" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="quAt1TAg6paES+hUDzcqykqu0FUZyfaW5OqdRNerygQ9AS6j5pnc8TKUxZHUWeO8LwtpfXlefzOQgLYbuZDdCQ=="/>
+                <enclosure url="https://www.sagereader.com/download/Sage3-1.delta" sparkle:deltaFrom="1" length="1719502" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="1379168" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="5ItjsgVzJfmWb94gHwdcjpgdrOOjdUx9K6WpJ9xJuui3+SekKR5lk4elweqwvnSpmrzUZEU4ZG5Z4YLHKFWqDA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.1.1</title>
             <pubDate>Thu, 19 Jan 2023 23:03:00 -0800</pubDate>
             <link>https://sagereader.com/download</link>

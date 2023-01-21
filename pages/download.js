@@ -66,7 +66,7 @@ export default function Download() {
                     <br />
                     <br />
                     <br />
-                    <DownloadButton href="https://sagereader.com/download/Sage-0.1.0.tar.xz">
+                    <DownloadButton href="https://sagereader.com/download/Sage-0.1.2.tar.xz">
                         <CenterAlign>
                             Download
                             <br />
